@@ -6,7 +6,7 @@ function payWithPaystack(e) {
     const email = document.getElementById("email-address").value;
     alert(email);
     let handler = PaystackPop.setup({
-        key: 'pk_test_5975642a2e844677a780afd0dd877f6b81ee2577', // Replace with your public key
+        key: 'pk_live_792b824977a5b9f329259a56318e449532bf79fd', // Replace with your public key
         email: document.getElementById("email-address").value,
         amount: 80 * 100,
         currency: 'ZAR',
